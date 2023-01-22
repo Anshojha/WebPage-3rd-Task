@@ -1,0 +1,60 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); */
+
+/* http://creative-agency-template-20151.webflow.io/ */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.navbar{
+    position: absolute;
+}
+
+
+.secPage{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.slide-1{
+  width: 100%;
+max-width: 100%;;
+  white-space: normal;
+ background-position: center;
+ object-fit: cover;
+}
+
+.slide-1 img{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide_1_Container{
+    /* background-color: aqua; */
+}
+
+h1{
+    position:absolute;
+    margin-top: 20px;
+    bottom: 20px;
+    right: 25px;
+    /* background-color: blue; */
+    margin-bottom: 10px;
+    font-family: Montserrat, sans-serif;
+    /* */
+    font: pink;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 900;
+    
+}
