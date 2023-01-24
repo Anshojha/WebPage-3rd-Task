@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,100&display=swap');
 /* http://creative-agency-template-20151.webflow.io/ */
 
 * {
@@ -9,9 +8,7 @@
 
 
 
-.navbar {
- 
-}
+.navbar {}
 
 
 .slider {
@@ -54,7 +51,7 @@ h1 {
 }
 
 
-.para1{
+.para1 {
     position: absolute;
     right: 14rem;
     bottom: 12rem;
@@ -92,56 +89,60 @@ h1 {
 
 
 
-.secSection{
-   display: flex;
-   flex-direction: row;
-   margin-top: 10px;
-   gap: 13px;
-   
+.secSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 5px;
 }
 
-.secSection-left{
+.secSection-left {
     /* height: 100vh; */
+
 }
-.secSection-left img{
+
+.secSection-left img {
     height: 600px;
     width: 600px;
 
 }
-.secSection-right{
+
+.secSection-right {
+    /* right: 0; */
     display: flex;
+    margin: 10px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     height: 600px;
-    width: 700px;
+    width: 600px;
 }
 
-.secSection-right h4{
-  font-family: 'Montserrat';
-  font-size: 2rem;
-  line-height: 3rem;
-  margin-bottom: 5px;
+.secSection-right h4 {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 5px;
 }
 
-.secSection-right h5{
+.secSection-right h5 {
     font-size: 15px;
     font-style: italic;
 }
 
 
-.secSection-right p{
-   width: 25rem;
-   margin-top: 30px;
-   line-height: 1rem;
-   align-items: center;
-   justify-content: center;
-   font-size: 12px;
-   text-align: center;
+.secSection-right p {
+    width: 25rem;
+    margin-top: 30px;
+    line-height: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
 }
 
-.button{
+.button {
     margin-top: 30px;
     text-decoration: none;
     border: 2px solid black;
@@ -153,8 +154,121 @@ h1 {
     letter-spacing: -1px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #878787;
     border: 2px solid #878787;
     color: aliceblue;
+}
+
+
+
+.smallSec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 63px;
+    margin-bottom: 63px;
+}
+
+
+.smallSec h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.smallSec h5 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-family: Vollkorn, serif;
+    font-size: 16px;
+    line-height: 22px;
+    width: max-content;
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+.domain {
+    display: flex;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:15px;
+    margin: 23px;
+}
+
+
+
+
+.branding {
+    background-color: aqua;
+    /* align-items: center; */
+
+}
+
+.branding h2 {
+    width: fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.branding p {
+    width: fit-content;
+}
+
+.branding img {
+    height: 50px;
+    width: 125px;
+}
+
+
+
+.web {
+    background-color: blueviolet;
+
+}
+
+.web h2 {
+    width: fit-content;
+}
+
+.web p {
+    width: fit-content;
+}
+
+
+.web img {
+    height: 50px;
+    width: 125px;
+}
+
+.design {
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.design h2{
+    width: fit-content;
+}
+
+.design p{
+    width: fit-content;
+}
+.design img {
+    height: 50px;
+    width: 125px;
 }
