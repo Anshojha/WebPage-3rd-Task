@@ -195,11 +195,11 @@ h1 {
 
 
 .domain {
-    display: flex;
     width: 100%;
-    /* background-color: yellowgreen; */
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     justify-content: space-around;
     gap:15px;
     margin: 23px;
@@ -210,7 +210,7 @@ h1 {
 
 .branding {
     background-color: aqua;
-    /* align-items: center; */
+    align-items: center;
 
 }
 
@@ -258,6 +258,8 @@ h1 {
 .design {
     align-items: center;
     justify-content: center;
+    /* width:500px;
+    height: 300px; */
     background-color: antiquewhite;
 }
 
@@ -271,4 +273,48 @@ h1 {
 .design img {
     height: 50px;
     width: 125px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height:250px;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.footer h6{
+    color:#878787;
+    padding-bottom: 10px;
+}
+.abcd img{
+    height: 70px;
+    width: 70px;
+}
+
+.menu{
+    /* display : table-caption; */
+    color: white;
+    margin: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+   /* padding: 10px; */
+   
+}
+
+.menu h6{
+    margin-bottom: 25px;
+}
+
+.linkss{
+    display : table-caption; 
 }
